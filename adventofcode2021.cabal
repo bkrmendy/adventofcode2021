@@ -36,3 +36,8 @@ executable day1
   import:           day
   main-is:          Day01.hs
   hs-source-dirs:   challenges
+
+executable day2
+  import:           day
+  main-is:          Day02.hs
+  hs-source-dirs:   challenges
