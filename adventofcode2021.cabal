@@ -125,3 +125,9 @@ executable day16
   hs-source-dirs:   challenges
   build-depends:    parsec
 
+executable day17
+  import:           day
+  main-is:          Day17.hs
+  hs-source-dirs:   challenges
+  build-depends:    containers
+
