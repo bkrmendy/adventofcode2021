@@ -20,3 +20,15 @@ challenge day parse part1 part2 = do
     let structured = parse inputText
     print $ part1 structured
     print $ part2 structured
+
+visual
+  ::  Int
+  -> (String -> input)
+  -> (input -> String)
+  -> (input -> String)
+  -> IO ()
+visual day parse part1 part2 = do
+    inputText <- readInput (show day)
+    let structured = parse inputText
+    putStrLn $ part1 structured
+    putStrLn $ part2 structured
