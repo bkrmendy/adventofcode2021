@@ -64,3 +64,9 @@ executable day6
   main-is:          Day06.hs
   hs-source-dirs:   challenges
   build-depends:    array, split
+
+executable day7
+  import:           day
+  main-is:          Day07.hs
+  hs-source-dirs:   challenges
+  build-depends:    split
