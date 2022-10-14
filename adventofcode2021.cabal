@@ -58,3 +58,9 @@ executable day5
   main-is:          Day05.hs
   hs-source-dirs:   challenges
   build-depends:    parsec, containers
+
+executable day6
+  import:           day
+  main-is:          Day06.hs
+  hs-source-dirs:   challenges
+  build-depends:    array, split
