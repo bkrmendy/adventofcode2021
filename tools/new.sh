@@ -8,5 +8,4 @@ echo "executable day$1
   main-is:          Day$1.hs
   hs-source-dirs:   challenges
   build-depends:    containers
-
 " >> adventofcode2021.cabal
