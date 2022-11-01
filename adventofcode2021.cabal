@@ -137,3 +137,9 @@ executable day20
   hs-source-dirs:   challenges
   build-depends:    containers, array, split
 
+executable day21
+  import:           day
+  main-is:          Day21.hs
+  hs-source-dirs:   challenges
+  build-depends:    containers, mtl
+
